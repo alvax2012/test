@@ -1,2 +1,4 @@
 word = 'Hello, World'
-print(word) # Hello, World1
+print("word1") # Hello, World1
+name = 'Вася'
+print('Здесь был', name)
