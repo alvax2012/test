@@ -30,3 +30,7 @@ for i in "hello":
         found=False    
         
 print(found)
+
+num=[1,2,3];
+i=num.count
+print(str(i))
