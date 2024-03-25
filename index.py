@@ -31,6 +31,6 @@ for i in "hello":
         
 print(found)
 
-num=[1,2,3];
-i=num.count
+num=[1,2,3,2];
+i=len(num)
 print(str(i))
