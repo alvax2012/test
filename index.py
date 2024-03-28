@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 #word = 'Hello, World'
 #print("word1") # Hello, World1
 #name = 'Вася'
@@ -35,12 +34,3 @@ print(found)
 num=[1,2,3,2];
 i=len(num)
 print(str(i))
-=======
-word = 'Hello, World'
-print("word1") # Hello, World1
-name = 'Вася'
-isUse=True
-if isUse:
-    print('Здесь был1', name)
-    # Hello, World1
->>>>>>> Stashed changes
