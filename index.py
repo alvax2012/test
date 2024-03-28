@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #word = 'Hello, World'
 #print("word1") # Hello, World1
 #name = 'Вася'
@@ -35,3 +36,12 @@ num=[1,2,3,2];
 i=len(num)
 print(str(i))
 #1111111
+=======
+word = 'Hello, World'
+print("word1") # Hello, World1
+name = 'Вася'
+isUse=True
+if isUse:
+    print('Здесь был1', name)
+    #2222222555
+>>>>>>> Stashed changes
