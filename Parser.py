@@ -7,12 +7,13 @@ URL = "https://habr.com/ru/search/?target_type=posts&q=python&order_by=date"
 page = requests.get(URL)
 soup = BeautifulSoup(page.content, "html.parser")
 
-post = soup.find("li", class_="content-list__item content-list__item_post shortcuts_item", id=True)
-post_id = post["id"]
-print(post_id)
+post = soup.find("article", class_="tm-articles-list__item", id=True)
+#post_id = post["id"]
+print(post)
 
-title = post.find("a", class_="post__title_link").text.strip()
-description = post.find("div", class_="post__text post__text-html post__text_v1").text.strip()
-url = post.find("a", class_="post__title_link", href=True)["href"].strip()
+#title = post.find("h2", class_="tm-title tm-title_h2").text.strip()
+#description = post.find("div", class_="article-formatted-body article-formatted-body article-formatted-body_version-2")
+#url = post.find("a", class_="tm-article-snippet__readmore", href=True)
 
-print(title, description, url)
+#print(title, description, url)
+#print(description)
